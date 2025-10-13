@@ -18,9 +18,9 @@
         
 
     $descricao = $_POST["txtDescricao"];
-    $DATA_ENTREGA = $_POST["txtdata"];
-    $prioridade = $_POST["txtprioridade"];
-    $responsavel = $_POST["txtresponsavel"];
+    $DATA_ENTREGA = $_POST["txtData"];
+    $prioridade = $_POST["txtPrioridade"];
+    $responsavel = $_POST["txtResponsavel"];
 
     // second step: preparar o comando SQL que será executado
     // Criar uma variável e passar os parâmetros como (?)
