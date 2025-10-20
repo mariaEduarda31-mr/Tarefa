@@ -57,7 +57,7 @@
             
         }
     ?>
-    <form method="post">
+    <form method="post" >
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -96,11 +96,11 @@
                 <br>
                 <div class="form-group">
 
-                    <button type="submit" class="btn btn-primary" name="btEditar">
+                    <button formaction = "tarefa_atualizar.php" type="submit" class="btn btn-primary" name="btEditar">
                         Editar
                     </button>
 
-                    <button type="submit" class="btn btn-warning" name="btExcluir">
+                    <button formaction = "tarefa_remover.php" type="submit" class="btn btn-warning" name="btExcluir">
                         Excluir
                     </button>
 
